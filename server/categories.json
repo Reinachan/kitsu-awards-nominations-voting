@@ -1,0 +1,129 @@
+[
+	{
+		"year": 2022,
+		"categories": [
+			{
+				"slug": "music",
+				"category": "Music Nominees",
+				"subcategories": [
+					{
+						"slug": "opening",
+						"title": "Best Opening"
+					},
+					{
+						"slug": "ending",
+						"title": "Best Ending"
+					},
+					{
+						"slug": "insert",
+						"title": "Best Insert Song"
+					},
+					{
+						"slug": "soundtrack",
+						"title": "Best Soundtrack"
+					}
+				]
+			},
+			{
+				"slug": "character",
+				"category": "Character Nominees",
+				"subcategories": [
+					{
+						"slug": "protagonist",
+						"title": "Best Protagonist"
+					},
+					{
+						"slug": "boy",
+						"title": "Best Boy"
+					},
+					{
+						"slug": "girl",
+						"title": "Best Girl"
+					},
+					{
+						"slug": "parent",
+						"title": "Best Parent(s)"
+					},
+					{
+						"slug": "cast",
+						"title": "Best Cast"
+					}
+				]
+			},
+			{
+				"slug": "production",
+				"category": "Production Nominees",
+				"subcategories": [
+					{
+						"slug": "animation",
+						"title": "Best Animation"
+					},
+					{
+						"slug": "background",
+						"title": "Best Background Art"
+					},
+					{
+						"slug": "cgi",
+						"title": "Best Use of CGI"
+					},
+					{
+						"slug": "chara-design",
+						"title": "Best Character Design"
+					},
+					{
+						"slug": "direction",
+						"title": "Best Direction"
+					},
+					{
+						"slug": "fight",
+						"title": "Best Fight Scene"
+					}
+				]
+			},
+			{
+				"slug": "seasons",
+				"category": "Anime of the Season Nominees",
+				"subcategories": [
+					{
+						"slug": "winter",
+						"title": "Best of Winter"
+					},
+					{
+						"slug": "spring",
+						"title": "Best of Spring"
+					},
+					{
+						"slug": "summer",
+						"title": "Best of Summer"
+					},
+					{
+						"slug": "fall",
+						"title": "Best of Fall"
+					}
+				]
+			},
+			{
+				"slug": "aoty-category",
+				"category": "Anime of the Year Nominees",
+				"subcategories": [
+					{
+						"slug": "short",
+						"title": "Best Short of the Year"
+					},
+					{
+						"slug": "film",
+						"title": "Best Film of the Year"
+					},
+					{
+						"slug": "continuing",
+						"title": "Continuing Anime of the Year"
+					},
+					{
+						"slug": "aoty",
+						"title": "Anime of the Year"
+					}
+				]
+			}
+		]
+	}
+]

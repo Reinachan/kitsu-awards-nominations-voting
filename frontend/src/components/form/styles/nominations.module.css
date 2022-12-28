@@ -1,0 +1,77 @@
+.picks {
+	background-color: #0a0a0a;
+	min-height: 50px;
+	width: 500px;
+	margin: 10px 0;
+	border-radius: 5px;
+}
+
+.noms {
+	display: grid;
+	grid-template-areas: 'entry title remove';
+	grid-template-columns: min-content auto min-content;
+	gap: 10px;
+	margin-bottom: 10px;
+	align-items: center;
+	background-color: #222;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.noms > button {
+	width: 20px;
+	margin-right: 5px;
+	grid-area: remove;
+}
+
+.noms > p {
+	grid-area: title;
+	display: grid;
+	grid-template-columns: auto 1fr;
+	align-items: center;
+	gap: 5px;
+}
+
+.noms p img {
+	width: 35px;
+}
+
+.noms .move {
+	grid-area: entry;
+	display: grid;
+	grid-template-areas:
+		'position up'
+		'position down';
+	align-items: center;
+}
+
+.move p {
+	grid-area: position;
+	padding: 10px;
+}
+.move button {
+	width: 20px;
+}
+.up {
+	grid-area: up;
+}
+.down {
+	grid-area: down;
+}
+
+.noms:nth-of-type(1) {
+	background-color: rgb(25, 123, 20);
+}
+
+.noms:nth-of-type(2) {
+	background-color: rgb(18, 86, 81);
+}
+
+.noms:nth-of-type(3) {
+	background-color: rgb(60, 27, 102);
+}
+
+.noms:nth-of-type(n + 7) {
+	background-color: rgb(254, 83, 83);
+	border: solid 3px rgb(118, 11, 11);
+}
